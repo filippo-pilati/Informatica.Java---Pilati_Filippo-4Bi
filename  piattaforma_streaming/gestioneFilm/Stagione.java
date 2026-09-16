@@ -1,4 +1,4 @@
-package piattaforma_streaming;
+package gestioneFilm;
 
 public class Stagione{
 
@@ -60,8 +60,8 @@ public class Stagione{
     public String toString(){
         return "STAGIONE: "+numeroStagione+"EPISODIO: "+numeroEpisodi+"TRAMA: "+trama+"AUTORE: "+ nomeSceneggiatore;
     }
+}
 
 
 
     
-}
