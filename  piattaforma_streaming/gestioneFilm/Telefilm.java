@@ -1,4 +1,4 @@
-package gestioneFilm;
+package piattaforma_streaming.gestioneFilm;
 
 import java.util.Arrays;
 
