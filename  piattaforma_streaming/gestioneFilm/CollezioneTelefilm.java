@@ -22,14 +22,14 @@ public class CollezioneTelefilm {
         return Arrays.toString(lista);
     }
 
-    // 
-    // AGGIUNGI TELEFILM
-    // 
     public void aggiungiTelefilm(Telefilm t) {
         lista = Arrays.copyOf(lista, lista.length + 1);
         lista[lista.length - 1] = t;
     }
 
-
+    public void ordinaPerNome() {
+        Arrays.sort(lista, (a, b) -> a.getNome().compareToIgnoreCase(b.getNome()));
+    }
 }
+
 
