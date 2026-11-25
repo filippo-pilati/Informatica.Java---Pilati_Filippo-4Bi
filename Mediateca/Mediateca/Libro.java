@@ -6,8 +6,9 @@ public class Libro extends Materiale {
         this.autore = autore;
         
     }
-
+    @Override
     public String descrizione(){
-        return "Libro: " + titolo + " di " + autore+ " (codice: " + codice + ")";
+        //return "Libro: " + titolo + " di " + autore+ " (codice: " + codice + ")";
+        return super.descrizione() + " di " + autore;
     }
 }
