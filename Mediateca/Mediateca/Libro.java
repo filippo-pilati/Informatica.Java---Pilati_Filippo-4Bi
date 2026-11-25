@@ -7,7 +7,7 @@ public class Libro extends Materiale {
         
     }
 
-    public Libro(){
-
+    public String descrizione(){
+        return "Libro: " + titolo + " di " + autore+ " (codice: " + codice + ")";
     }
 }

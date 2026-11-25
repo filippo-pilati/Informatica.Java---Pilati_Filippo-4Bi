@@ -6,7 +6,7 @@ public class Materiale extends Object{
         this.codice = codice;
         this.titolo = titolo;
     }
-
+    
     public String descrizione(){
         return codece+" - "+titolo;
     }
